@@ -9,8 +9,6 @@ import java.io.File;
 
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
-import okhttp3.internal.cache.DiskLruCache;
-import okhttp3.internal.io.FileSystem;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

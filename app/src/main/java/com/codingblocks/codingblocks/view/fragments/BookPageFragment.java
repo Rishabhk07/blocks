@@ -68,7 +68,7 @@ public class BookPageFragment extends Fragment {
             webView.setBackgroundColor(getResources().getColor(backgroundColor));
         }
         StringBuilder sb = new StringBuilder();
-        sb.append("<HTML><HEAD><LINK href=\"style.css\" type=\"text/css\" rel=\"stylesheet\"/></HEAD><body>");
+        sb.append("<HTML><HEAD><LINK href=\"style.min.css\" type=\"text/css\" rel=\"stylesheet\"/></HEAD><body>");
         sb.append("<div class=\"gb without-animation with-summary font-size-2 font-family-1 ");
         sb.append(theme);
         sb.append("\">\n");

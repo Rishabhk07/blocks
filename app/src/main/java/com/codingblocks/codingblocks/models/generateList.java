@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Created by rishabhkhanna on 30/06/17.
  */
 
-public class GenerateList {
+public class generateList {
     public static void generateList(ArrayList<String> groupList, HashMap<String, ArrayList<String>> childList){
         groupList.add("Blocks of JS");
         groupList.add("Crux");
